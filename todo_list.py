@@ -44,7 +44,7 @@ def main():
     
     while True:
         print("\nMenu:")
-        print("1. Add Task")
+        print("1. Add wiefbwefub Task") # Added a typo so that a colleague can fix a bug
         print("2. Delete Task")
         print("3. Complete Task")
         print("4. View Tasks")
