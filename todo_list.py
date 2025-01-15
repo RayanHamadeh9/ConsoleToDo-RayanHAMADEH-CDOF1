@@ -49,12 +49,18 @@ def main():
             todo_list.add_task(task)
         elif choice == "2":
             todo_list.view_tasks()
-            task_number = int(input("Enter the task number to delete: "))
-            todo_list.delete_task(task_number)
+            try:
+                task_number = int(input("Enter the task number to delete: "))
+                todo_list.delete_task(task_number)
+            except ValueError:
+                print("Invalid input. Please enter a valid task number.")
         elif choice == "3":
             todo_list.view_tasks()
-            task_number = int(input("Enter the task number to mark as complete: "))
-            todo_list.complete_task(task_number)
+            try:
+                task_number = int(input("Enter the task number to mark as complete: "))
+                todo_list.complete_task(task_number)
+            except ValueError:
+                print("Invalid input. Please enter a valid task number.")
         elif choice == "4":
             todo_list.view_tasks()
         elif choice == "5":
