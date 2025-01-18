@@ -1,16 +1,15 @@
 # To-Do List Application
 
-
 ## Description
-the **To-Do List Application** is a simple console-based Python program designed to help users manage their tasks. It allows users to add, delete, and mark tasks as completed. The application is lightwight intuitive, and a great application on basic python concepts.
+The **To-Do List Application** is a simple console-based Python program designed to help users manage their tasks efficiently. It allows users to add, delete, and mark tasks as completed. This lightweight and intuitive application is an excellent project for exploring basic Python concepts.
 
 ---
 
 ## Features
 - **Add Tasks**: Quickly add tasks to your to-do list.
 - **Delete Tasks**: Remove tasks you no longer need.
-- **Complete Tasks**: Mark tasks as completed to keep track of progress.
-- **View Tasks**: View all tasks with their completion status.
+- **Complete Tasks**: Mark tasks as completed to track your progress.
+- **View Tasks**: Display all tasks with their completion status.
 
 ---
 
@@ -18,22 +17,23 @@ the **To-Do List Application** is a simple console-based Python program designed
 
 ### Prerequisites
 - Python 3 installed on your system.
-- A tect editor or IDE (eg, VSCode, PyCharm, or a terminal-based Python).
+- A text editor or IDE (e.g., VSCode, PyCharm, or any terminal-based Python environment).
 
-## Steps to Run
+### Steps to Run
 
-1. Clone this repository:
-	git clone <repository-url>
-	cd <repository-directory>
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
 
 2. Run the script
 	python todo_list.py
 
 3. Follow the on-screen menu to manage your tasks:
-- **Add Task**: Enter the task discription when prompted.
-- **Delete Task**: Enter the task number to delete the task.
-- **Complete Task**: Enter the task number to mark as completed.
-- **View Tasks**: Displays all the tasks with their completion status.
+- **Add Task**: Enter the task description when prompted.
+- **Delete Task**: Enter the task number to delete a specific task.
+- **Complete Task**: Enter the task number to mark it as completed.
+- **View Tasks**: View all tasks along with their completion status.
 
 ---
 
@@ -70,3 +70,4 @@ If you encounter any issues or have questions, feel free to open an issue in thi
 ---
 
 Thank you for contributing to the To-Do List Application!
+
