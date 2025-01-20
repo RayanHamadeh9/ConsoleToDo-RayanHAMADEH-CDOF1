@@ -58,9 +58,9 @@ class ToDoList:
 def main():
     todo_list = ToDoList()  # Create an instance of the ToDoList class
     
-    while True:  # Loop to continuously display the menu and take user input
-        print("\nMenu:")  # Display options
-        print("1. Add Task")
+    while True:
+        print("\nMenu:")
+        print("1. Add Task") # Added a typo so that a colleague can fix a bug
         print("2. Delete Task")
         print("3. Complete Task")
         print("4. View Tasks")
